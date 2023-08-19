@@ -5,10 +5,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Vishal Kumar</title>
+		<link rel="stylesheet" href="CSS/style.css" />
+		<link rel="stylesheet" href="CSS/index.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-		<link rel="stylesheet" href="CSS/index.css" />
 		<link
 			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
 			rel="stylesheet" />
@@ -16,29 +17,35 @@
 
 	<body>
 		<header>
-			<h2 class="logo"><span>V</span>ishal <span>K</span>umar.</h2>
+			<a href="./index.html">
+				<h2 class="logo"><span>V</span>ishal <span>K</span>umar.</h2>
+			</a>
 			<nav class="navigation">
 				<a href="./index.html">Home</a>
-				<a href="#">Projects</a>
-				<a href="#">About</a>
-				<a href="#">Contact</a>
+				<a href="./projects.html">Projects</a>
+				<a href="./about.html">About</a>
+				<a href="./contact.html">Contact</a>
 			</nav>
 			<a href="#" class="btn-talk">Let's Talk</a>
 		</header>
 
 		<section class="home">
 			<div class="content">
-				<h2>Hi👋, I'm <span>Vishal Kumar</span></h2>
-				<h4>Software Developer</h4>
+				<h2>Hi, I'm <span>Vishal Kumar</span></h2>
+				<span class="role"></span>
 				<p>
-					I will write something here later...<br /><br />
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Aut iusto eaque, eveniet officiis sit voluptatem dignissimos
-					vel eum suscipit harum debitis enim error odit quaerat
-					adipisci. Eos ipsam aspernatur cupiditate?
+					Because Debugging is the Best Way to Stay Sane!<br /><br />
+					Welcome! Join me in traversing the digital cosmos, where
+					curiosity fuels my journey through code. Let's navigate the
+					intricacies of my portfolio and uncover the wonders of the
+					coding universe.
 				</p>
 				<div class="btn-group">
-					<a href="#">Resume</a>
+					<a
+						href="https://drive.google.com/uc?export=download&id=1nGdu8dzL1Vn6uGoIGNCYIZX0VhLCLZC8"
+						alt="Resume"
+						>Resume</a
+					>
 				</div>
 				<div class="social-accounts">
 					<a href="#"><i class="bx bxl-linkedin-square"></i></a>
@@ -48,6 +55,28 @@
 					<a href="#"><i class="bx bxl-gmail"></i></a>
 				</div>
 			</div>
+			<img
+				src="../personal-portfolio/assets/profile-transparent.png"
+				alt="" />
 		</section>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<!-- <script
+			src="https://kit.fontawesome.com/58a810656e.js"
+			crossorigin="anonymous"></script> -->
+		<script>
+			var typeData = new Typed(".role", {
+				strings: [
+					"Software Developer",
+					"Full Stack Developer",
+					"Java Developer",
+					"Backend Developer",
+					"Passionate Coder",
+				],
+				loop: true,
+				typeSpeed: 100,
+				backSpeed: 80,
+				backDelay: 1000,
+			});
+		</script>
 	</body>
 </html>
