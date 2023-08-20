@@ -34,17 +34,17 @@
 	background-color: #fb8500;
 	background-color: white;
 	border-radius: 10px;
-	margin: 10px;
+	margin: 15px;
 	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
 	transition: 0.2s ease-out;
-	transform: perspective(100px) translateZ(0px);
+	/* transform: perspective(100px) translateZ(0px); */
 	/* box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.5);  */
 	/* padding: 10px; Add padding for spacing and better shadow effect */
 }
 
 .icons-container:hover {
 	border-radius: 30px;
-	transform: perspective(100px) translateZ(50px);
+	/* transform: perspective(100px) translateZ(50px); */
 }
 .icons-container img {
 	display: flex;
