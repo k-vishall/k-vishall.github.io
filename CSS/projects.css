@@ -8,3 +8,16 @@
 	align-items: center;
 	padding: 30px 100px;
 }
+
+.project {
+	background-color: #fff;
+}
+
+.project-thumbnail {
+	background-color: #fff;
+	width: 500px;
+	height: 500px;
+}
+.project-discription {
+	background-color: red;
+}

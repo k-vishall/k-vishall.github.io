@@ -9,6 +9,16 @@
 	align-items: center;
 	padding: 30px 100px;
 }
+.home img {
+	position: relative;
+	left: 15%;
+	bottom: 0%;
+	background-color: #023047;
+	/* background-color: #fff; */
+	border-radius: 500px;
+	width: 600px;
+	height: 600px;
+}
 
 .contact-form {
 	background-color: white;

@@ -82,6 +82,7 @@ header a {
 .social-accounts {
 	position: fixed;
 	bottom: 50px;
+	/* background-color: red; */
 }
 
 .social-accounts a {

@@ -45,6 +45,7 @@
 .icons-container:hover {
 	border-radius: 30px;
 	transform: perspective(100px) translateZ(50px);
+	z-index: 1;
 }
 .icons-container img {
 	display: flex;
